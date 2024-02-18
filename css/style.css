@@ -74,12 +74,15 @@ h6 {
 
 .title-block {
     width: 49%;
+    padding-top: 200px;
 }
 
 .title {
-    line-height: 80px;
-    font-size: 20px;
+    line-height: 110px;
+    font-size: 80px;
     color: #080606;
+    font-weight: 400;
+    margin-bottom: 50px;
 }
 
 .btn {
