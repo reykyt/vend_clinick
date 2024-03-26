@@ -117,9 +117,7 @@ h6 {
     height: 768px;
 }
 
-.services {
 
-}
 .services__list {
     max-width: 1352px;
     display: flex;
@@ -140,9 +138,7 @@ h6 {
     position: relative;
     margin-bottom: 24px;
 }
-.services__item:hover{
-    
-}
+
 .item__title{
     font-family: var(--second-family);
     font-weight: 400;
@@ -251,13 +247,16 @@ h6 {
     right: -1153px;
 
 }
-
 @media (max-width: 1368px){ 
     .slider__nav{
         bottom: -2344px;
     }
 }
-
+@media (max-width: 910px){
+    .content{
+    display: block;
+    }
+}
 .helpers__conteaner{
     margin: 0 auto;
     padding-top:323px;
