@@ -257,7 +257,11 @@ h6 {
         bottom: -2344px;
     }
 }
-
+@media (max-width: 910px){
+    .content{
+    display: block;
+    }
+}
 .helpers__conteaner{
     margin: 0 auto;
     padding-top:323px;
