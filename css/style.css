@@ -365,3 +365,101 @@ h6 {
     margin-bottom:30px;
 }
 
+.contacts__content{
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.contacts{
+    padding-top:235px;
+
+}
+.contacts__desc{
+    margin-right:69px;
+    margin-bottom: 30px;
+}
+.contacts__title{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 40px;
+    color: var(--text);
+    margin-bottom: 70px;
+}
+
+.conacts__titles{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 30px;
+    color: var(--text);
+    margin-bottom:20px;
+    margin-top: 40px;
+}
+
+.contacts__item__text, .contacts__item__link{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: var(--brown);
+    margin-bottom:15px;
+}
+
+.conntacts__item{
+    display: flex;
+}
+
+.contacts__item__img{
+    margin-right: 20px;
+}
+
+.footer{
+    background: var(--brown);
+    padding-bottom: 130px;
+}
+
+.footer__conteaner{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+}
+
+.footer__logo{
+    margin-left: 22px;
+    margin-bottom:29px;
+}
+.footer__titles{
+    display: flex;
+}
+.politic{
+    max-width: 192px;
+    margin-left: 112px;
+}
+
+.footer__link{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #fff; 
+}
+
+.contacts__social-network{
+    display: flex;
+    column-gap:50px;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
+.e-mail__link{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #fff;
+}
+
+.footer__list-2, .footer__list-3{
+    margin-top: 95px;
+}
