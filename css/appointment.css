@@ -1,0 +1,68 @@
+:root {
+	--brown: #59443f;
+	--orange: #ffc59e;
+	--text: #080606;
+	--bg: #fffefe;
+	--brown-light: #c3b9b5;
+	--brown-bg: #ede9e8;
+}
+
+:root {
+    --font-family: "Futura New", sans-serif;
+    --second-family: "SchoolBook", sans-serif;
+  }
+
+.appointment{
+    padding-top:75px;
+    padding-bottom:535px;
+}
+
+.appointment__conteaner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.appointment__title{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 80px;
+    color: var(--text);
+    max-width: 360px;
+    padding-top: 60px;
+}
+
+
+.appointment__item{
+    box-shadow: 0px 8px 15px 5px  rgba(0,0,0,0.3);
+    border-radius: 20px;
+    margin-bottom:24px;
+}
+
+.appointment__item-text{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.text__title{
+    margin-top: 32px;
+    margin-bottom: 33px;
+    margin-left: 32px;
+    margin-right: 606px;
+}
+
+.text__title{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--text);
+}
+.appointment__price{
+    margin-top: 32px;
+    margin-bottom: 33px;
+    margin-right: 32px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--text);
+}

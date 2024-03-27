@@ -463,3 +463,18 @@ h6 {
 .footer__list-2, .footer__list-3{
     margin-top: 95px;
 }
+
+
+
+.back-link{
+    display: flex;
+    margin-bottom: 60px;
+}
+
+.back__text{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--orange);
+}
+
