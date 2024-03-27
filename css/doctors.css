@@ -1,0 +1,133 @@
+:root {
+	--brown: #59443f;
+	--orange: #ffc59e;
+	--text: #080606;
+	--bg: #fffefe;
+	--brown-light: #c3b9b5;
+	--brown-bg: #ede9e8;
+}
+
+:root {
+    --font-family: "Futura New", sans-serif;
+    --second-family: "SchoolBook", sans-serif;
+  }
+
+.group{
+    padding-top:145px;
+    padding-bottom:102px;
+}
+
+.group__conteaner{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+
+.titles__title{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 80px;
+    color: var(--text); 
+    margin-bottom:109px;
+    transition: 1s;
+}
+
+.item__link{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--brown-light);
+
+}
+
+.titles__item{
+    margin-bottom:30px;
+}
+
+.group__img{
+    margin-bottom: 50px;
+    transition: 1s;
+}
+
+.about__title{
+    margin-bottom: 40px;
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 30px;
+    color: var(--text);
+}
+
+.about__text{
+    font-family: var(--font-family);
+    font-size: 20px;
+    line-height: 150%;
+    color: #000;
+    max-width:909px;
+    margin-bottom:100px;
+}
+
+.doctor__title{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 30px;
+    color: #000;
+    margin-bottom: 50px;
+
+}
+
+.doctor__item{
+    border-radius: 20px;
+    max-width:442px;
+    box-shadow: 2px 2px 20px 0 rgba(0, 0, 0, 0.1);
+    background: #fff;
+    display: flex;
+    padding: 30px;
+    margin-bottom:25px;
+}
+.section-1__stage{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 15px;
+    text-align: center;
+    color: var(--orange);
+}
+
+.item__section-1{
+    margin-right: 20px;
+}
+.item__section-2{
+    max-width:232px;
+}
+.doctor__icon{
+    margin-bottom:20px;
+}
+
+.section-2__title{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 15px;
+    color: var(--brown-light);
+    margin-bottom:10px;
+    line-height: 100%;
+}
+
+.section-2__subtitles{
+    margin-bottom: 20px;
+
+}
+.section-2__subtitle{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 125%;
+    color: var(--text);
+}
+.doctor__list{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+
+.doctor{
+    max-width: 909px;
+}
