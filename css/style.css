@@ -79,7 +79,9 @@ h6 {
     text-transform: uppercase;
     text-decoration: none;
 }
-
+.dop{
+    color: var(--brown);
+}
 .content {
     display: flex;
     justify-content: space-between;
