@@ -1,4 +1,16 @@
-
+:root {
+	--brown: #59443f;
+	--orange: #ffc59e;
+	--text: #080606;
+	--bg: #fffefe;
+	--brown-light: #c3b9b5;
+	--brown-bg: #ede9e8;
+}
+:root {
+    --font-family: "Futura New", sans-serif;
+    --second-family: "SchoolBook", sans-serif;
+  }
+  
 .histor{
     padding-top:75px;
 }
